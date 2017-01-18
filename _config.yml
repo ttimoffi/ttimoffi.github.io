@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Clinton Boys
+title:            Cool Black Dude
 locale:           en_AU
 url:              
 
@@ -26,24 +26,24 @@ kramdown:
 
 # Site owner
 owner:
-  name: Clinton Boys
+  name: Timon Olaleye
   avatar: bio-photo.jpg
-  bio: "I am an Australian data scientist with a PhD in pure mathematics, living in Tel Aviv."
+  bio: "when i was 9 years old,my teacher asked me what i wanted to be?, i replied that'i wana be a businessman'"
   email: cdsboys@gmail.com
   disqus-shortname: 
-  twitter: psephologue
-  facebook: clintonboys
+  twitter: toba_olaleye
+  facebook: toba_olaleye
   google:
     plus: #username
-    analytics: UA-59479340-1
+    analytics: 
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: clintonboys
-  stackoverflow: 5677207/clinton-boys
-  linkedin: clintonboys
-  instagram: cboy5675
+  github: ttimoffi
+  stackoverflow: #username
+  linkedin: #username
+  instagram: #username
   lastfm: #username
   tumblr: #username
   pinterest: #username

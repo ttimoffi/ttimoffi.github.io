@@ -1,0 +1,60 @@
+# Site wide configuration
+
+title:            Clinton Boys
+locale:           en_AU
+url:              
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Clinton Boys
+  avatar: bio-photo.jpg
+  bio: "I am an Australian data scientist with a PhD in pure mathematics, living in Tel Aviv."
+  email: cdsboys@gmail.com
+  disqus-shortname: 
+  twitter: psephologue
+  facebook: clintonboys
+  google:
+    plus: #username
+    analytics: UA-59479340-1
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: clintonboys
+  stackoverflow: 5677207/clinton-boys
+  linkedin: clintonboys
+  instagram: cboy5675
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
